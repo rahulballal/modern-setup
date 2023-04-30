@@ -5,13 +5,13 @@ import {
   List,
   CircularProgress,
   Alert,
-  ListDivider,
   Card,
   CardContent,
   Typography,
   Chip,
   Box,
 } from "@mui/joy";
+import { Link } from "wouter";
 
 const CatCard: FC<Cat> = (props) => {
   const { name, life_span, origin, indoor } = props;
@@ -31,15 +31,20 @@ const CatCard: FC<Cat> = (props) => {
         </Chip>
       </Box>
     );
+  const lifesspanText = `Life Span is ${minLifeSpan ?? ""} to ${
+    maxLifeSpan ?? ""
+  } years`;
   return (
     <Card sx={{ width: "500px" }}>
       <CardContent>
         {indoorOutdoorNode}
-        <Typography level="h2">{name}</Typography>
+        <Typography level="h2">
+          <Link href={`/cat/${props.id}`}>{name}</Link>
+        </Typography>
         <Typography level="h6">Developed in {origin}</Typography>
-        <Typography level="body">{`Life Span is ${minLifeSpan ?? ""} to ${
-          maxLifeSpan ?? ""
-        } years`}</Typography>
+        <Typography level="body1">
+          <p>{lifesspanText}</p>
+        </Typography>
       </CardContent>
     </Card>
   );

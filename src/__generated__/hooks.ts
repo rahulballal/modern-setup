@@ -107,21 +107,21 @@ export type QueryCatArgs = {
 export type CatsQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-export type CatsQuery = { __typename?: 'Query', cats: Array<{ __typename?: 'Cat', id: string, adaptability?: number | null, affection_level?: number | null, child_friendliness?: number | null, country_code?: string | null, description?: string | null, dog_friendliness?: number | null, energy_level?: number | null, experimental?: boolean | null, grooming?: number | null, hairless?: boolean | null, health_issues?: number | null, hypoallergenic?: boolean | null, indoor?: boolean | null, intelligence?: number | null, lap?: boolean | null, name?: string | null, natural?: boolean | null, origin?: string | null, rare?: boolean | null, rex?: boolean | null, shedding_level?: number | null, short_legs?: boolean | null, social_needs?: number | null, stranger_friendly?: number | null, suppressed_tail?: boolean | null, vocalisation?: number | null, wikipedia_url?: string | null, weight?: Array<number | null> | null, temperament?: Array<string | null> | null, life_span?: Array<number | null> | null }> };
+export type CatsQuery = { __typename?: 'Query', cats: Array<{ __typename?: 'Cat', id: string, adaptability?: number | null, affection_level?: number | null, child_friendliness?: number | null, country_code?: string | null, description?: string | null, hypoallergenic?: boolean | null, indoor?: boolean | null, intelligence?: number | null, name?: string | null, origin?: string | null, shedding_level?: number | null, weight?: Array<number | null> | null, life_span?: Array<number | null> | null }> };
 
 export type CatQueryVariables = Exact<{
   catId: Scalars['String'];
 }>;
 
 
-export type CatQuery = { __typename?: 'Query', cat: { __typename?: 'Cat', id: string, adaptability?: number | null, affection_level?: number | null, child_friendliness?: number | null, country_code?: string | null, description?: string | null, dog_friendliness?: number | null, energy_level?: number | null, experimental?: boolean | null, grooming?: number | null, hairless?: boolean | null, health_issues?: number | null, hypoallergenic?: boolean | null, indoor?: boolean | null, intelligence?: number | null, lap?: boolean | null, name?: string | null, natural?: boolean | null, origin?: string | null, rare?: boolean | null, rex?: boolean | null, shedding_level?: number | null, short_legs?: boolean | null, social_needs?: number | null, stranger_friendly?: number | null, suppressed_tail?: boolean | null, vocalisation?: number | null, wikipedia_url?: string | null, weight?: Array<number | null> | null, temperament?: Array<string | null> | null, life_span?: Array<number | null> | null } };
+export type CatQuery = { __typename?: 'Query', cat: { __typename?: 'Cat', id: string, adaptability?: number | null, affection_level?: number | null, child_friendliness?: number | null, country_code?: string | null, description?: string | null, hypoallergenic?: boolean | null, indoor?: boolean | null, intelligence?: number | null, name?: string | null, origin?: string | null, shedding_level?: number | null, weight?: Array<number | null> | null, life_span?: Array<number | null> | null } };
 
 export type AddNewCatMutationVariables = Exact<{
   newCat?: InputMaybe<NewCatInput>;
 }>;
 
 
-export type AddNewCatMutation = { __typename?: 'Mutation', add: { __typename?: 'Cat', id: string, adaptability?: number | null, affection_level?: number | null, child_friendliness?: number | null, country_code?: string | null, description?: string | null, dog_friendliness?: number | null, energy_level?: number | null, experimental?: boolean | null, grooming?: number | null, hairless?: boolean | null, health_issues?: number | null, hypoallergenic?: boolean | null, indoor?: boolean | null, intelligence?: number | null, lap?: boolean | null, name?: string | null, natural?: boolean | null, origin?: string | null, rare?: boolean | null, rex?: boolean | null, shedding_level?: number | null, short_legs?: boolean | null, social_needs?: number | null, stranger_friendly?: number | null, suppressed_tail?: boolean | null, vocalisation?: number | null, wikipedia_url?: string | null, weight?: Array<number | null> | null, temperament?: Array<string | null> | null, life_span?: Array<number | null> | null } };
+export type AddNewCatMutation = { __typename?: 'Mutation', add: { __typename?: 'Cat', id: string, adaptability?: number | null, affection_level?: number | null, child_friendliness?: number | null, country_code?: string | null, description?: string | null, hypoallergenic?: boolean | null, indoor?: boolean | null, intelligence?: number | null, name?: string | null, origin?: string | null, shedding_level?: number | null, weight?: Array<number | null> | null, life_span?: Array<number | null> | null } };
 
 
 export const CatsDocument = gql`
@@ -133,30 +133,13 @@ export const CatsDocument = gql`
     child_friendliness
     country_code
     description
-    dog_friendliness
-    energy_level
-    experimental
-    grooming
-    hairless
-    health_issues
     hypoallergenic
     indoor
     intelligence
-    lap
     name
-    natural
     origin
-    rare
-    rex
     shedding_level
-    short_legs
-    social_needs
-    stranger_friendly
-    suppressed_tail
-    vocalisation
-    wikipedia_url
     weight
-    temperament
     life_span
   }
 }
@@ -197,30 +180,13 @@ export const CatDocument = gql`
     child_friendliness
     country_code
     description
-    dog_friendliness
-    energy_level
-    experimental
-    grooming
-    hairless
-    health_issues
     hypoallergenic
     indoor
     intelligence
-    lap
     name
-    natural
     origin
-    rare
-    rex
     shedding_level
-    short_legs
-    social_needs
-    stranger_friendly
-    suppressed_tail
-    vocalisation
-    wikipedia_url
     weight
-    temperament
     life_span
   }
 }
@@ -262,30 +228,13 @@ export const AddNewCatDocument = gql`
     child_friendliness
     country_code
     description
-    dog_friendliness
-    energy_level
-    experimental
-    grooming
-    hairless
-    health_issues
     hypoallergenic
     indoor
     intelligence
-    lap
     name
-    natural
     origin
-    rare
-    rex
     shedding_level
-    short_legs
-    social_needs
-    stranger_friendly
-    suppressed_tail
-    vocalisation
-    wikipedia_url
     weight
-    temperament
     life_span
   }
 }

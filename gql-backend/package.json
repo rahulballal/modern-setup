@@ -1,0 +1,20 @@
+{
+  "name": "cat-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "prepdata": "node preparedata.cjs >> data.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.6.0",
+    "graphql": "^16.6.0",
+    "lowdb": "^5.1.0",
+    "nodemon": "^2.0.22"
+  }
+}
