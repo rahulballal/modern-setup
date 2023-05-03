@@ -11,12 +11,20 @@ import {
     TextInput
 } from "@mantine/core"
 
-const toDisplayLabel = (key: string) => {
-    const [first, second] = key.split('_');
-    if (!second) {
-        return first.toUpperCase();
+const toNormalCase = (txt?: string) => {
+        if(txt) {
+                return txt[0].toUpperCase() + txt.substr(1, txt.length).toLowerCase();
+            }
+        return '';
     }
-    return `${first.toUpperCase()} ${second.toUpperCase()}`
+
+export const toDisplayLabel = (key: string) => {
+    const [first, second] = key.split('_');
+    
+    if (!second) {
+        return toNormalCase(first);
+    }
+    return `${toNormalCase(first)} ${toNormalCase(second)}`.trimEnd();
 }
 
 export const CatDetail: React.FC<{ id: Cat["id"] }> = (props) => {
