@@ -13,8 +13,8 @@ import {
     AddNewCatMutationVariables,
     useAddNewCatMutation,
     NewCatInput
-} from "./__generated__/hooks";
-import {QUERY_CATS} from "./gql-operations";
+} from "../__generated__/hooks";
+import {QUERY_CATS} from "../gql-operations";
 import {ChangeEvent, ChangeEventHandler, FC, useReducer} from "react";
 
 const AddCatButton: FC<AddNewCatMutationVariables> = ({newCat}) => {

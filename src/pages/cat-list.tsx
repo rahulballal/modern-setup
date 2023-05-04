@@ -1,6 +1,6 @@
 import type {FC} from "react";
-import type {Cat} from "./__generated__/hooks"
-import {useCatsQuery} from "./__generated__/hooks";
+import type {Cat} from "../__generated__/hooks"
+import {useCatsQuery} from "../__generated__/hooks";
 import {Link} from "wouter";
 import {Loader, Alert, Box, Badge, Text, Stack, Card, Title} from "@mantine/core";
 

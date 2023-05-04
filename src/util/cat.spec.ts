@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { toDisplayLabel } from './cat.tsx';
+import { toDisplayLabel } from '.';
 
 describe('toDisplayLabel', () => {
   it('should display single word properly as normal case', () => {
