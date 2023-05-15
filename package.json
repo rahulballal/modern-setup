@@ -23,10 +23,12 @@
     "@graphql-codegen/cli": "^3.3.0",
     "@graphql-codegen/client-preset": "^3.0.0",
     "@graphql-codegen/typescript-react-apollo": "^3.3.7",
+    "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
+    "jsdom": "^22.0.0",
     "typescript": "^5.0.4",
     "vite": "^4.2.0",
     "vitest": "^0.30.1"

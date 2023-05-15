@@ -1,4 +1,4 @@
-const toNormalCase = (txt?: string) => {
+export const toNormalCase = (txt?: string) => {
   if (txt) {
     return txt[0].toUpperCase() + txt.substr(1, txt.length).toLowerCase();
   }
