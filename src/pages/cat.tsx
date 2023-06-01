@@ -17,12 +17,12 @@ export const CatDetail: React.FC<{ id: Cat["id"] }> = (props) => {
     variables: { catId: props.id },
   });
   if (loading) {
-    return <Loader variant="dots" />;
+    return <Loader variant="dots" data-testid="loader" />;
   }
 
   if (error || !data) {
     return (
-      <Alert color={"red"}>Cat decided to not come to party...bad kitty</Alert>
+      <Alert color={"red"} data-testid="error">Cat decided to not come to party...bad kitty</Alert>
     );
   }
 

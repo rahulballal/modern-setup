@@ -12,7 +12,7 @@ import AppHeader from "./components/header";
 const AppWithRoutes = () => {
   return (
     <MantineProvider theme={{ colorScheme: "light" }}>
-      <AppShell padding={"md"} header={<AppHeader />} sx={{ minWidth: "80%" }}>
+      <AppShell padding={"md"} header={<AppHeader />}>
         <Center>
           <Switch>
             <Route path="/" component={CatList} />

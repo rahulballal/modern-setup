@@ -1,17 +1,18 @@
 import {CatDetail} from "./cat";
 import {MockedProvider} from "@apollo/client/testing";
-import {render} from "@testing-library/react";
+import {render, screen} from "@testing-library/react";
 import {CatDocument} from "../__generated__/hooks";
+import {GraphQLError} from "graphql/error";
 
 describe("CatDetail", () => {
-  it("should render", () => {
-    let mockedResponse = [
+  it("should render after handling loading state", async () => {
+    const mockedResponse = [
       {
         request: {
           query: CatDocument,
           variables: {catId: "1"}
         },
-
+        delay: 500, // this is important to wait for the loading state
         result: {
           data: {
             cat: {
@@ -39,5 +40,28 @@ describe("CatDetail", () => {
           <CatDetail id={"1"}/>
         </MockedProvider>
     )
+    expect(await screen.findByTestId("loader")).toBeInTheDocument();
+    expect(await screen.findByText("Id")).toBeInTheDocument();
   });
+
+  it("should render after handling error state", async () => {
+    const mockedResponse = [
+      {
+        request: {
+          query: CatDocument,
+          variables: {catId: "1"}
+        },
+        result: {
+          data: null,
+          errors:[new GraphQLError("busted")]
+        }
+      }
+    ];
+    render(
+        <MockedProvider mocks={mockedResponse} addTypename={false}>
+          <CatDetail id={"1"}/>
+        </MockedProvider>
+    )
+    expect(await screen.findByTestId("error")).toBeInTheDocument();
+  })
 });

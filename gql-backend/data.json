@@ -3215,5 +3215,20 @@
     "shedding_level": 0,
     "weight": [],
     "life_span": []
+  },
+  {
+    "id": "478e1487-07b9-4135-851c-fef25525d307",
+    "adaptability": 0,
+    "affection_level": 0,
+    "child_friendliness": 0,
+    "description": "",
+    "hypoallergenic": true,
+    "indoor": false,
+    "intelligence": 0,
+    "name": "Thunder Cat",
+    "origin": "",
+    "shedding_level": 0,
+    "weight": [],
+    "life_span": []
   }
 ]
