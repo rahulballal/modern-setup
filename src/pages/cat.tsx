@@ -38,7 +38,7 @@ export const CatDetail: React.FC<{ id: Cat["id"] }> = (props) => {
   }
 
   return (
-    <Card style={{ width: "50%" }}>
+    <Card style={{ width: "50%" }} data-testid="cat-detail">
       <Stack spacing="xs">
         <TextInput label="Id" value={data?.cat.id} disabled />
         <TextInput label="Name" value={data?.cat.name ?? ""} disabled />

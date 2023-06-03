@@ -3230,5 +3230,20 @@
     "shedding_level": 0,
     "weight": [],
     "life_span": []
+  },
+  {
+    "id": "97650f32-b791-45d3-a252-b74867647500",
+    "adaptability": 0,
+    "affection_level": 0,
+    "child_friendliness": 0,
+    "description": "",
+    "hypoallergenic": false,
+    "indoor": false,
+    "intelligence": 0,
+    "name": "jiffkins",
+    "origin": "",
+    "shedding_level": 0,
+    "weight": [],
+    "life_span": []
   }
 ]

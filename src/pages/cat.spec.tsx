@@ -1,73 +1,72 @@
-import {CatDetail} from "./cat";
-import {MockedProvider} from "@apollo/client/testing";
-import {render, screen} from "@testing-library/react";
-import {CatDocument} from "../__generated__/hooks";
-import {GraphQLError} from "graphql/error";
-import {GQLMockProvider} from "../testing/gql-mock-provider";
+import { CatDetail } from "./cat";
+import { render, screen } from "@testing-library/react";
+import { MockedProvider } from "@apollo/client/testing";
+import { CatDocument } from "../__generated__/hooks";
+import { GraphQLError } from "graphql/error";
 
-describe("CatDetail", () => {
-  it("should render after handling loading state", async () => {
-    const mockedResponse = [
-      {
-        request: {
-          query: CatDocument,
-          variables: {catId: "1"}
+test("should render after handling loading state", async () => {
+  render(
+    <MockedProvider
+      mocks={[
+        {
+          request: {
+            query: CatDocument,
+            variables: {
+              catId: "eda58439-4ade-4ce3-9e71-d8fd269dec30",
+            },
+          },
+          delay: 500,
+          result: {
+            data: {
+              cat: {
+                id: "eda58439-4ade-4ce3-9e71-d8fd269dec30",
+                adaptability: 5,
+                affection_level: 4,
+                child_friendliness: 4,
+                country_code: "GR",
+                description:
+                  "Native to the Greek islands known as the Cyclades in the Aegean Sea, these are natural cats, meaning they developed without humans getting involved in their breeding. As a breed, Aegean Cats are rare, although they are numerous on their home islands. They are generally friendly toward people and can be excellent cats for families with children.",
+                hypoallergenic: false,
+                indoor: false,
+                intelligence: 3,
+                name: "Aegean",
+                origin: "Greece",
+                shedding_level: 3,
+                weight: [3, 5],
+                life_span: [9, 12],
+                __typename: "Cat",
+              },
+            },
+          },
         },
-        delay: 500, // this is important to wait for the loading state
-        result: {
-          data: {
-            cat: {
-              id: "1",
-              adaptability: 5,
-              affection_level: 5,
-              child_friendliness: 5,
-              description: "description",
-              hypoallergenic: true,
-              indoor: true,
-              intelligence: 5,
-              name: "FurElise",
-              origin: "Azerbaijan",
-              shedding_level: 4,
-              weight: [12, 15],
-              life_span: [5, 9],
-              country_code: 'AB'
-            }
-          }
-        }
-      }
-    ];
-    const mockResolvers= {
-      // @ts-ignore
-      cat: (_, {id}) => {
-        console.log({id})
-        if(id !== "1") {
-          throw new Error("boom")
-        }
-        setTimeout(() => {
-          return mockedResponse[0].result
-        }, mockedResponse[0].delay)
-      }
-    }
-    render(
-        <GQLMockProvider mockResolvers={mockResolvers}>
-          <CatDetail id={"1"}/>
-        </GQLMockProvider>
-    )
-    //expect(await screen.findByTestId("loader")).toBeInTheDocument();
-    expect(await screen.findByText("Id")).toBeInTheDocument();
-  });
+      ]}
+      addTypename={false}
+    >
+      <CatDetail id={"eda58439-4ade-4ce3-9e71-d8fd269dec30"} />
+    </MockedProvider>
+  );
+  expect(await screen.findByTestId("loader")).toBeInTheDocument();
+  expect(await screen.findByTestId("cat-detail")).toBeInTheDocument();
+});
 
-  it.skip("should render after handling error state", async () => {
-    const resolvers = {
-      cat: () => {
-        throw new GraphQLError('busted')
-      }
-    }
-    render(
-        <GQLMockProvider mockResolvers={resolvers}>
-          <CatDetail id={"1"}/>
-        </GQLMockProvider>
-    )
-    expect(await screen.findByTestId("error")).toBeInTheDocument();
-  })
+test("should render after handling error state", async () => {
+  const mocks = [
+    {
+      request: {
+        query: CatDocument,
+        variables: {
+          catId: "eda58439-4ade-4ce3-9e71-d8fd269dec30",
+        },
+      },
+      delay: 500,
+      error: new GraphQLError("Something unexpected happened"),
+    },
+  ];
+  render(
+    <MockedProvider mocks={mocks} addTypename={false}>
+      <CatDetail id={"eda58439-4ade-4ce3-9e71-d8fd269dec30"} />
+    </MockedProvider>
+  );
+  expect(await screen.findByTestId("loader")).toBeInTheDocument();
+  expect(await screen.findByTestId("error")).toBeInTheDocument();
 });
