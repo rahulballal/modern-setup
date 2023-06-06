@@ -8,7 +8,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "gql:codegen": "graphql-codegen",
-    "t:unit": "vitest --coverage --environment jsdom"
+    "t": "vitest --coverage --environment jsdom"
   },
   "dependencies": {
     "@apollo/client": "^3.7.12",
