@@ -8,7 +8,8 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "gql:codegen": "graphql-codegen",
-    "t": "vitest --coverage --environment jsdom"
+    "test": "vitest --coverage --environment jsdom",
+    "e2e": "npx playwright test"
   },
   "dependencies": {
     "@apollo/client": "^3.7.12",
@@ -23,6 +24,7 @@
     "@graphql-codegen/cli": "^3.3.0",
     "@graphql-codegen/client-preset": "^3.0.0",
     "@graphql-codegen/typescript-react-apollo": "^3.3.7",
+    "@playwright/test": "^1.34.3",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "14.4.3",

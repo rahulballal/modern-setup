@@ -16,10 +16,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      14,
-      15
-    ],
+    "life_span": [14, 15],
     "name": "Abyssinian",
     "natural": true,
     "origin": "Egypt",
@@ -38,10 +35,7 @@
       "Gentle"
     ],
     "vocalisation": 1,
-    "weight": [
-      3,
-      5
-    ],
+    "weight": [3, 5],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Abyssinian_(cat)"
   },
   {
@@ -60,10 +54,7 @@
     "hypoallergenic": false,
     "indoor": false,
     "intelligence": 3,
-    "life_span": [
-      9,
-      12
-    ],
+    "life_span": [9, 12],
     "name": "Aegean",
     "natural": false,
     "origin": "Greece",
@@ -82,10 +73,7 @@
       "Active"
     ],
     "vocalisation": 3,
-    "weight": [
-      3,
-      5
-    ],
+    "weight": [3, 5],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Aegean_cat"
   },
   {
@@ -105,10 +93,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      11,
-      15
-    ],
+    "life_span": [11, 15],
     "name": "American Bobtail",
     "natural": false,
     "origin": "United States",
@@ -127,10 +112,7 @@
       "Sensitive"
     ],
     "vocalisation": 3,
-    "weight": [
-      3,
-      7
-    ],
+    "weight": [3, 7],
     "wikipedia_url": "https://en.wikipedia.org/wiki/American_Bobtail"
   },
   {
@@ -150,10 +132,7 @@
     "indoor": false,
     "intelligence": 3,
     "lap": true,
-    "life_span": [
-      12,
-      16
-    ],
+    "life_span": [12, 16],
     "name": "American Curl",
     "natural": false,
     "origin": "United States",
@@ -174,19 +153,14 @@
       "Social"
     ],
     "vocalisation": 3,
-    "weight": [
-      2,
-      5
-    ],
+    "weight": [2, 5],
     "wikipedia_url": "https://en.wikipedia.org/wiki/American_Curl"
   },
   {
     "id": "a7bf6de4-095c-499b-a6ed-b63d93a24843",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Domestic Shorthair"
-    ],
+    "alternative_names": ["Domestic Shorthair"],
     "child_friendliness": 4,
     "country_code": "US",
     "description": "The American Shorthair is known for its longevity, robust health, good looks, sweet personality, and amiability with children, dogs, and other pets.",
@@ -200,10 +174,7 @@
     "indoor": false,
     "intelligence": 3,
     "lap": true,
-    "life_span": [
-      15,
-      17
-    ],
+    "life_span": [15, 17],
     "name": "American Shorthair",
     "natural": true,
     "origin": "United States",
@@ -214,18 +185,9 @@
     "social_needs": 4,
     "stranger_friendly": 3,
     "suppressed_tail": false,
-    "temperament": [
-      "Active",
-      "Curious",
-      "Easy Going",
-      "Playful",
-      "Calm"
-    ],
+    "temperament": ["Active", "Curious", "Easy Going", "Playful", "Calm"],
     "vocalisation": 3,
-    "weight": [
-      4,
-      7
-    ],
+    "weight": [4, 7],
     "wikipedia_url": "https://en.wikipedia.org/wiki/American_Shorthair"
   },
   {
@@ -245,10 +207,7 @@
     "indoor": false,
     "intelligence": 3,
     "lap": true,
-    "life_span": [
-      14,
-      18
-    ],
+    "life_span": [14, 18],
     "name": "American Wirehair",
     "natural": false,
     "origin": "United States",
@@ -272,19 +231,14 @@
       "Social"
     ],
     "vocalisation": 3,
-    "weight": [
-      4,
-      7
-    ],
+    "weight": [4, 7],
     "wikipedia_url": "https://en.wikipedia.org/wiki/American_Wirehair"
   },
   {
     "id": "ab35e4ae-b447-4604-8531-46dc83984d8f",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Alley cat"
-    ],
+    "alternative_names": ["Alley cat"],
     "child_friendliness": 4,
     "country_code": "AE",
     "description": "Arabian Mau cats are social and energetic. Due to their energy levels, these cats do best in homes where their owners will be able to provide them with plenty of playtime, attention and interaction from their owners. These kitties are friendly, intelligent, and adaptable, and will even get along well with other pets and children.",
@@ -297,10 +251,7 @@
     "hypoallergenic": false,
     "indoor": false,
     "intelligence": 3,
-    "life_span": [
-      12,
-      14
-    ],
+    "life_span": [12, 14],
     "name": "Arabian Mau",
     "natural": true,
     "origin": "United Arab Emirates",
@@ -320,19 +271,14 @@
       "Loyal"
     ],
     "vocalisation": 1,
-    "weight": [
-      4,
-      7
-    ],
+    "weight": [4, 7],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Arabian_Mau"
   },
   {
     "id": "26da3260-1fa3-44d4-bc62-f0a9118fe167",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Spotted Mist"
-    ],
+    "alternative_names": ["Spotted Mist"],
     "child_friendliness": 4,
     "country_code": "AU",
     "description": "The Australian Mist thrives on human companionship. Tolerant of even the youngest of children, these friendly felines enjoy playing games and being part of the hustle and bustle of a busy household. They make entertaining companions for people of all ages, and are happy to remain indoors between dusk and dawn or to be wholly indoor pets.",
@@ -346,10 +292,7 @@
     "indoor": false,
     "intelligence": 4,
     "lap": true,
-    "life_span": [
-      12,
-      16
-    ],
+    "life_span": [12, 16],
     "name": "Australian Mist",
     "natural": false,
     "origin": "Australia",
@@ -368,19 +311,14 @@
       "Affectionate"
     ],
     "vocalisation": 3,
-    "weight": [
-      3,
-      7
-    ],
+    "weight": [3, 7],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Australian_Mist"
   },
   {
     "id": "1a24f355-67bb-4624-b959-bf3c75cda95e",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Long-haired Siamese"
-    ],
+    "alternative_names": ["Long-haired Siamese"],
     "child_friendliness": 4,
     "country_code": "US",
     "description": "Balinese are curious, outgoing, intelligent cats with excellent communication skills. They are known for their chatty personalities and are always eager to tell you their views on life, love, and what you’ve served them for dinner. ",
@@ -393,10 +331,7 @@
     "hypoallergenic": true,
     "indoor": false,
     "intelligence": 5,
-    "life_span": [
-      10,
-      15
-    ],
+    "life_span": [10, 15],
     "name": "Balinese",
     "natural": false,
     "origin": "United States",
@@ -407,16 +342,9 @@
     "social_needs": 5,
     "stranger_friendly": 5,
     "suppressed_tail": false,
-    "temperament": [
-      "Affectionate",
-      "Intelligent",
-      "Playful"
-    ],
+    "temperament": ["Affectionate", "Intelligent", "Playful"],
     "vocalisation": 5,
-    "weight": [
-      2,
-      5
-    ],
+    "weight": [2, 5],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Balinese_(cat)"
   },
   {
@@ -436,10 +364,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      12,
-      14
-    ],
+    "life_span": [12, 14],
     "name": "Bambino",
     "natural": false,
     "origin": "United States",
@@ -450,17 +375,9 @@
     "social_needs": 3,
     "stranger_friendly": 3,
     "suppressed_tail": false,
-    "temperament": [
-      "Affectionate",
-      "Lively",
-      "Friendly",
-      "Intelligent"
-    ],
+    "temperament": ["Affectionate", "Lively", "Friendly", "Intelligent"],
     "vocalisation": 3,
-    "weight": [
-      2,
-      4
-    ],
+    "weight": [2, 4],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Bambino_cat"
   },
   {
@@ -480,10 +397,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": false,
-    "life_span": [
-      12,
-      15
-    ],
+    "life_span": [12, 15],
     "name": "Bengal",
     "natural": false,
     "origin": "United States",
@@ -494,28 +408,16 @@
     "social_needs": 5,
     "stranger_friendly": 3,
     "suppressed_tail": false,
-    "temperament": [
-      "Alert",
-      "Agile",
-      "Energetic",
-      "Demanding",
-      "Intelligent"
-    ],
+    "temperament": ["Alert", "Agile", "Energetic", "Demanding", "Intelligent"],
     "vocalisation": 5,
-    "weight": [
-      3,
-      7
-    ],
+    "weight": [3, 7],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Bengal_(cat)"
   },
   {
     "id": "00023cd2-35e1-4f6e-bffa-30090a4c4c4e",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Sacred Birman",
-      "Sacred Cat Of Burma"
-    ],
+    "alternative_names": ["Sacred Birman", "Sacred Cat Of Burma"],
     "child_friendliness": 4,
     "country_code": "FR",
     "description": "The Birman is a docile, quiet cat who loves people and will follow them from room to room. Expect the Birman to want to be involved in what you’re doing. He communicates in a soft voice, mainly to remind you that perhaps it’s time for dinner or maybe for a nice cuddle on the sofa. He enjoys being held and will relax in your arms like a furry baby.",
@@ -529,10 +431,7 @@
     "indoor": false,
     "intelligence": 3,
     "lap": true,
-    "life_span": [
-      14,
-      15
-    ],
+    "life_span": [14, 15],
     "name": "Birman",
     "natural": false,
     "origin": "France",
@@ -543,26 +442,16 @@
     "social_needs": 4,
     "stranger_friendly": 3,
     "suppressed_tail": false,
-    "temperament": [
-      "Affectionate",
-      "Active",
-      "Gentle",
-      "Social"
-    ],
+    "temperament": ["Affectionate", "Active", "Gentle", "Social"],
     "vocalisation": 1,
-    "weight": [
-      3,
-      7
-    ],
+    "weight": [3, 7],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Birman"
   },
   {
     "id": "847ec5ee-b233-4fef-abc3-d039e2f812e1",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Small black Panther"
-    ],
+    "alternative_names": ["Small black Panther"],
     "child_friendliness": 4,
     "country_code": "US",
     "description": "The the golden eyes and the shiny black coa of the Bopmbay is absolutely striking. Likely to bond most with one family member, the Bombay will follow you from room to room and will almost always have something to say about what you are doing, loving attention and to be carried around, often on his caregiver's shoulder.",
@@ -576,10 +465,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      12,
-      16
-    ],
+    "life_span": [12, 16],
     "name": "Bombay",
     "natural": false,
     "origin": "United States",
@@ -598,10 +484,7 @@
       "Playful"
     ],
     "vocalisation": 5,
-    "weight": [
-      3,
-      5
-    ],
+    "weight": [3, 5],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Bombay_(cat)"
   },
   {
@@ -620,10 +503,7 @@
     "hypoallergenic": false,
     "indoor": false,
     "intelligence": 5,
-    "life_span": [
-      12,
-      14
-    ],
+    "life_span": [12, 14],
     "name": "British Longhair",
     "natural": false,
     "origin": "United Kingdom",
@@ -643,21 +523,14 @@
       "Social"
     ],
     "vocalisation": 1,
-    "weight": [
-      4,
-      8
-    ],
+    "weight": [4, 8],
     "wikipedia_url": "https://en.wikipedia.org/wiki/British_Longhair"
   },
   {
     "id": "9b4e5f41-d376-4a3f-bb09-59d5ef01c255",
     "adaptability": 5,
     "affection_level": 4,
-    "alternative_names": [
-      "Highlander",
-      "Highland Straight",
-      "Britannica"
-    ],
+    "alternative_names": ["Highlander", "Highland Straight", "Britannica"],
     "child_friendliness": 4,
     "country_code": "GB",
     "description": "The British Shorthair is a very pleasant cat to have as a companion, ans is easy going and placid. The British is a fiercely loyal, loving cat and will attach herself to every one of her family members. While loving to play, she doesn't need hourly attention. If she is in the mood to play, she will find someone and bring a toy to that person. The British also plays well by herself, and thus is a good companion for single people.",
@@ -671,10 +544,7 @@
     "indoor": false,
     "intelligence": 3,
     "lap": true,
-    "life_span": [
-      12,
-      17
-    ],
+    "life_span": [12, 17],
     "name": "British Shorthair",
     "natural": true,
     "origin": "United Kingdom",
@@ -694,10 +564,7 @@
       "Calm"
     ],
     "vocalisation": 1,
-    "weight": [
-      5,
-      9
-    ],
+    "weight": [5, 9],
     "wikipedia_url": "https://en.wikipedia.org/wiki/British_Shorthair"
   },
   {
@@ -717,10 +584,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      15,
-      16
-    ],
+    "life_span": [15, 16],
     "name": "Burmese",
     "natural": false,
     "origin": "Burma",
@@ -741,10 +605,7 @@
       "Lively"
     ],
     "vocalisation": 5,
-    "weight": [
-      3,
-      5
-    ],
+    "weight": [3, 5],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Burmese_(cat)"
   },
   {
@@ -764,10 +625,7 @@
     "indoor": false,
     "intelligence": 3,
     "lap": true,
-    "life_span": [
-      10,
-      15
-    ],
+    "life_span": [10, 15],
     "name": "Burmilla",
     "natural": false,
     "origin": "United Kingdom",
@@ -787,19 +645,14 @@
       "Social"
     ],
     "vocalisation": 5,
-    "weight": [
-      3,
-      6
-    ],
+    "weight": [3, 6],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Burmilla"
   },
   {
     "id": "b5b49713-4aea-46e4-b625-22cd3f58922f",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Spangle"
-    ],
+    "alternative_names": ["Spangle"],
     "child_friendliness": 4,
     "country_code": "US",
     "description": "Perhaps the only thing about the California spangled cat that isn’t wild-like is its personality. Known to be affectionate, gentle and sociable, this breed enjoys spending a great deal of time with its owners. They are very playful, often choosing to perch in high locations and show off their acrobatic skills.",
@@ -812,10 +665,7 @@
     "hypoallergenic": false,
     "indoor": false,
     "intelligence": 5,
-    "life_span": [
-      10,
-      14
-    ],
+    "life_span": [10, 14],
     "name": "California Spangled",
     "natural": false,
     "origin": "United States",
@@ -834,20 +684,14 @@
       "Social"
     ],
     "vocalisation": 1,
-    "weight": [
-      5,
-      7
-    ],
+    "weight": [5, 7],
     "wikipedia_url": "https://en.wikipedia.org/wiki/California_Spangled"
   },
   {
     "id": "30727b88-0a1b-446b-8248-1764ba72afd3",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Chantilly",
-      "Foreign Longhair"
-    ],
+    "alternative_names": ["Chantilly", "Foreign Longhair"],
     "child_friendliness": 4,
     "country_code": "US",
     "description": "The Chantilly is a devoted companion and prefers company to being left alone. While the Chantilly is not demanding, she will \"chirp\" and \"talk\" as if having a conversation. This breed is affectionate, with a sweet temperament. I can stay still for extended periods, happily lounging in the lap of its loved one. This quality makes the Tiffany an ideal traveling companion, and an ideal house companion for senior citizens and the physically handicapped.",
@@ -861,10 +705,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      14,
-      16
-    ],
+    "life_span": [14, 16],
     "name": "Chantilly-Tiffany",
     "natural": false,
     "origin": "United States",
@@ -875,17 +716,9 @@
     "social_needs": 3,
     "stranger_friendly": 4,
     "suppressed_tail": false,
-    "temperament": [
-      "Affectionate",
-      "Demanding",
-      "Interactive",
-      "Loyal"
-    ],
+    "temperament": ["Affectionate", "Demanding", "Interactive", "Loyal"],
     "vocalisation": 5,
-    "weight": [
-      3,
-      5
-    ],
+    "weight": [3, 5],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Chantilly-Tiffany"
   },
   {
@@ -905,10 +738,7 @@
     "indoor": false,
     "intelligence": 4,
     "lap": true,
-    "life_span": [
-      12,
-      15
-    ],
+    "life_span": [12, 15],
     "name": "Chartreux",
     "natural": false,
     "origin": "France",
@@ -928,19 +758,14 @@
       "Playful"
     ],
     "vocalisation": 1,
-    "weight": [
-      3,
-      7
-    ],
+    "weight": [3, 7],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Chartreux"
   },
   {
     "id": "a1315afa-21d4-49b3-96fa-0141ff00c9db",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Nile Cat"
-    ],
+    "alternative_names": ["Nile Cat"],
     "child_friendliness": 4,
     "country_code": "EG",
     "description": "For those owners who desire a feline capable of evoking the great outdoors, the strikingly beautiful Chausie retains a bit of the wild in its appearance but has the house manners of our friendly, familiar moggies. Very playful, this cat needs a large amount of space to be able to fully embrace its hunting instincts.",
@@ -953,10 +778,7 @@
     "hypoallergenic": false,
     "indoor": false,
     "intelligence": 5,
-    "life_span": [
-      12,
-      14
-    ],
+    "life_span": [12, 14],
     "name": "Chausie",
     "natural": false,
     "origin": "Egypt",
@@ -967,17 +789,9 @@
     "social_needs": 3,
     "stranger_friendly": 4,
     "suppressed_tail": false,
-    "temperament": [
-      "Affectionate",
-      "Intelligent",
-      "Playful",
-      "Social"
-    ],
+    "temperament": ["Affectionate", "Intelligent", "Playful", "Social"],
     "vocalisation": 1,
-    "weight": [
-      3,
-      7
-    ],
+    "weight": [3, 7],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Chausie"
   },
   {
@@ -996,10 +810,7 @@
     "hypoallergenic": false,
     "indoor": false,
     "intelligence": 5,
-    "life_span": [
-      12,
-      14
-    ],
+    "life_span": [12, 14],
     "name": "Cheetoh",
     "natural": false,
     "origin": "United States",
@@ -1010,17 +821,9 @@
     "social_needs": 3,
     "stranger_friendly": 4,
     "suppressed_tail": false,
-    "temperament": [
-      "Affectionate",
-      "Gentle",
-      "Intelligent",
-      "Social"
-    ],
+    "temperament": ["Affectionate", "Gentle", "Intelligent", "Social"],
     "vocalisation": 5,
-    "weight": [
-      4,
-      7
-    ],
+    "weight": [4, 7],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Bengal_cat#Cheetoh"
   },
   {
@@ -1040,10 +843,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      12,
-      16
-    ],
+    "life_span": [12, 16],
     "name": "Colorpoint Shorthair",
     "natural": false,
     "origin": "United States",
@@ -1054,17 +854,9 @@
     "social_needs": 4,
     "stranger_friendly": 2,
     "suppressed_tail": false,
-    "temperament": [
-      "Affectionate",
-      "Intelligent",
-      "Playful",
-      "Social"
-    ],
+    "temperament": ["Affectionate", "Intelligent", "Playful", "Social"],
     "vocalisation": 5,
-    "weight": [
-      2,
-      5
-    ],
+    "weight": [2, 5],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Colorpoint_Shorthair"
   },
   {
@@ -1084,10 +876,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      11,
-      14
-    ],
+    "life_span": [11, 14],
     "name": "Cornish Rex",
     "natural": false,
     "origin": "United Kingdom",
@@ -1106,19 +895,14 @@
       "Playful"
     ],
     "vocalisation": 1,
-    "weight": [
-      2,
-      4
-    ],
+    "weight": [2, 4],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Cornish_Rex"
   },
   {
     "id": "26d44000-bf1d-4ff8-afe5-4178d693609e",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Spangle"
-    ],
+    "alternative_names": ["Spangle"],
     "child_friendliness": 4,
     "country_code": "CA",
     "description": "The Cymric is a placid, sweet cat. They do not get too upset about anything that happens in their world. They are loving companions and adore people. They are smart and dexterous, capable of using his paws to get into cabinets or to open doors.",
@@ -1132,10 +916,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      8,
-      14
-    ],
+    "life_span": [8, 14],
     "name": "Cymric",
     "natural": false,
     "origin": "Canada",
@@ -1146,26 +927,16 @@
     "social_needs": 5,
     "stranger_friendly": 3,
     "suppressed_tail": true,
-    "temperament": [
-      "Gentle",
-      "Loyal",
-      "Intelligent",
-      "Playful"
-    ],
+    "temperament": ["Gentle", "Loyal", "Intelligent", "Playful"],
     "vocalisation": 3,
-    "weight": [
-      4,
-      6
-    ],
+    "weight": [4, 6],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Cymric_(cat)"
   },
   {
     "id": "25f03f98-a17a-4eeb-85d1-1f3b6c1ce1c6",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Cypriot cat"
-    ],
+    "alternative_names": ["Cypriot cat"],
     "child_friendliness": 4,
     "country_code": "CY",
     "description": "Loving, loyal, social and inquisitive, the Cyprus cat forms strong ties with their families and love nothing more than to be involved in everything that goes on in their surroundings. They are not overly active by nature which makes them the perfect companion for people who would like to share their homes with a laid-back relaxed feline companion. ",
@@ -1179,10 +950,7 @@
     "indoor": false,
     "intelligence": 3,
     "lap": true,
-    "life_span": [
-      12,
-      15
-    ],
+    "life_span": [12, 15],
     "name": "Cyprus",
     "natural": true,
     "origin": "Cyprus",
@@ -1193,26 +961,16 @@
     "social_needs": 3,
     "stranger_friendly": 4,
     "suppressed_tail": false,
-    "temperament": [
-      "Affectionate",
-      "Social"
-    ],
+    "temperament": ["Affectionate", "Social"],
     "vocalisation": 3,
-    "weight": [
-      4,
-      7
-    ],
+    "weight": [4, 7],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Cyprus_cat"
   },
   {
     "id": "332c4f63-92b6-407b-aba5-9f64c9133753",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Pixie cat",
-      "Alien cat",
-      "Poodle cat"
-    ],
+    "alternative_names": ["Pixie cat", "Alien cat", "Poodle cat"],
     "child_friendliness": 4,
     "country_code": "GB",
     "description": "The favourite perch of the Devon Rex is right at head level, on the shoulder of her favorite person. She takes a lively interest in everything that is going on and refuses to be left out of any activity. Count on her to stay as close to you as possible, occasionally communicating his opinions in a quiet voice. She loves people and welcomes the attentions of friends and family alike.",
@@ -1226,10 +984,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      10,
-      15
-    ],
+    "life_span": [10, 15],
     "name": "Devon Rex",
     "natural": false,
     "origin": "United Kingdom",
@@ -1248,10 +1003,7 @@
       "Playful"
     ],
     "vocalisation": 1,
-    "weight": [
-      2,
-      5
-    ],
+    "weight": [2, 5],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Devon_Rex"
   },
   {
@@ -1270,10 +1022,7 @@
     "hypoallergenic": false,
     "indoor": false,
     "intelligence": 3,
-    "life_span": [
-      12,
-      15
-    ],
+    "life_span": [12, 15],
     "name": "Donskoy",
     "natural": false,
     "origin": "Russia",
@@ -1284,28 +1033,16 @@
     "social_needs": 5,
     "stranger_friendly": 5,
     "suppressed_tail": false,
-    "temperament": [
-      "Playful",
-      "Affectionate",
-      "Loyal",
-      "Social"
-    ],
+    "temperament": ["Playful", "Affectionate", "Loyal", "Social"],
     "vocalisation": 2,
-    "weight": [
-      5,
-      6
-    ],
+    "weight": [5, 6],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Donskoy_(cat)"
   },
   {
     "id": "1dee2212-915c-4e67-9861-6a54de0f4c3b",
     "adaptability": 3,
     "affection_level": 3,
-    "alternative_names": [
-      "Chinese Lia Hua",
-      "Lí hua māo (貍花貓)",
-      "Li Hua"
-    ],
+    "alternative_names": ["Chinese Lia Hua", "Lí hua māo (貍花貓)", "Li Hua"],
     "child_friendliness": 3,
     "country_code": "CN",
     "description": "The Dragon Li is loyal, but not particularly affectionate. They are known to be very intelligent, and their natural breed status means that they're very active. She is is gentle with people, and has a reputation as a talented hunter of rats and other vermin.",
@@ -1318,10 +1055,7 @@
     "hypoallergenic": false,
     "indoor": true,
     "intelligence": 3,
-    "life_span": [
-      12,
-      15
-    ],
+    "life_span": [12, 15],
     "name": "Dragon Li",
     "natural": true,
     "origin": "China",
@@ -1332,27 +1066,16 @@
     "social_needs": 4,
     "stranger_friendly": 3,
     "suppressed_tail": false,
-    "temperament": [
-      "Intelligent",
-      "Friendly",
-      "Gentle",
-      "Loving",
-      "Loyal"
-    ],
+    "temperament": ["Intelligent", "Friendly", "Gentle", "Loving", "Loyal"],
     "vocalisation": 3,
-    "weight": [
-      4,
-      6
-    ],
+    "weight": [4, 6],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Dragon_Li"
   },
   {
     "id": "066fca25-c82c-4296-8ef0-0b4095e12d82",
     "adaptability": 2,
     "affection_level": 5,
-    "alternative_names": [
-      "Pharaoh Cat"
-    ],
+    "alternative_names": ["Pharaoh Cat"],
     "child_friendliness": 3,
     "country_code": "EG",
     "description": "The Egyptian Mau is gentle and reserved. She loves her people and desires attention and affection from them but is wary of others. Early, continuing socialization is essential with this sensitive and sometimes shy cat, especially if you plan to show or travel with her. Otherwise, she can be easily startled by unexpected noises or events.",
@@ -1366,10 +1089,7 @@
     "indoor": false,
     "intelligence": 4,
     "lap": true,
-    "life_span": [
-      18,
-      20
-    ],
+    "life_span": [18, 20],
     "name": "Egyptian Mau",
     "natural": true,
     "origin": "Egypt",
@@ -1390,10 +1110,7 @@
       "Playful"
     ],
     "vocalisation": 3,
-    "weight": [
-      3,
-      6
-    ],
+    "weight": [3, 6],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Egyptian_Mau"
   },
   {
@@ -1413,10 +1130,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      10,
-      15
-    ],
+    "life_span": [10, 15],
     "name": "European Burmese",
     "natural": false,
     "origin": "Burma",
@@ -1427,24 +1141,15 @@
     "social_needs": 5,
     "stranger_friendly": 5,
     "suppressed_tail": false,
-    "temperament": [
-      "Sweet",
-      "Affectionate",
-      "Loyal"
-    ],
+    "temperament": ["Sweet", "Affectionate", "Loyal"],
     "vocalisation": 4,
-    "weight": [
-      3,
-      6
-    ]
+    "weight": [3, 6]
   },
   {
     "id": "9b12328e-e387-4894-8e8a-cc2aeb9e3c85",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Exotic"
-    ],
+    "alternative_names": ["Exotic"],
     "child_friendliness": 3,
     "country_code": "US",
     "description": "The Exotic Shorthair is a gentle friendly cat that has the same personality as the Persian. They love having fun, don’t mind the company of other cats and dogs, also love to curl up for a sleep in a safe place. Exotics love their own people, but around strangers they are cautious at first. Given time, they usually warm up to visitors.",
@@ -1458,10 +1163,7 @@
     "indoor": false,
     "intelligence": 3,
     "lap": true,
-    "life_span": [
-      12,
-      15
-    ],
+    "life_span": [12, 15],
     "name": "Exotic Shorthair",
     "natural": false,
     "origin": "United States",
@@ -1472,28 +1174,16 @@
     "social_needs": 4,
     "stranger_friendly": 2,
     "suppressed_tail": false,
-    "temperament": [
-      "Affectionate",
-      "Sweet",
-      "Loyal",
-      "Quiet",
-      "Peaceful"
-    ],
+    "temperament": ["Affectionate", "Sweet", "Loyal", "Quiet", "Peaceful"],
     "vocalisation": 1,
-    "weight": [
-      3,
-      6
-    ],
+    "weight": [3, 6],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Exotic_Shorthair"
   },
   {
     "id": "80d75871-833f-40ca-86af-f169b437407e",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Havana",
-      "HB"
-    ],
+    "alternative_names": ["Havana", "HB"],
     "child_friendliness": 4,
     "country_code": "GB",
     "description": "The Havana Brown is human oriented, playful, and curious. She has a strong desire to spend time with her people and involve herself in everything they do. Being naturally inquisitive, the Havana Brown reaches out with a paw to touch and feel when investigating curiosities in its environment. They are truly sensitive by nature and frequently gently touch their human companions as if they are extending a paw of friendship.",
@@ -1507,10 +1197,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      10,
-      15
-    ],
+    "life_span": [10, 15],
     "name": "Havana Brown",
     "natural": false,
     "origin": "United Kingdom",
@@ -1530,10 +1217,7 @@
       "Playful"
     ],
     "vocalisation": 1,
-    "weight": [
-      3,
-      5
-    ],
+    "weight": [3, 5],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Havana_Brown"
   },
   {
@@ -1559,10 +1243,7 @@
     "indoor": false,
     "intelligence": 3,
     "lap": true,
-    "life_span": [
-      9,
-      15
-    ],
+    "life_span": [9, 15],
     "name": "Himalayan",
     "natural": false,
     "origin": "United States",
@@ -1573,27 +1254,16 @@
     "social_needs": 4,
     "stranger_friendly": 2,
     "suppressed_tail": false,
-    "temperament": [
-      "Dependent",
-      "Gentle",
-      "Intelligent",
-      "Quiet",
-      "Social"
-    ],
+    "temperament": ["Dependent", "Gentle", "Intelligent", "Quiet", "Social"],
     "vocalisation": 1,
-    "weight": [
-      3,
-      6
-    ],
+    "weight": [3, 6],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Himalayan_(cat)"
   },
   {
     "id": "d2233901-686a-4c71-9caa-06962fe6f061",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Japanese Truncated Cat"
-    ],
+    "alternative_names": ["Japanese Truncated Cat"],
     "child_friendliness": 4,
     "country_code": "JP",
     "description": "The Japanese Bobtail is an active, sweet, loving and highly intelligent breed. They love to be with people and play seemingly endlessly. They learn their name and respond to it. They bring toys to people and play fetch with a favorite toy for hours. Bobtails are social and are at their best when in the company of people. They take over the house and are not intimidated. If a dog is in the house, Bobtails assume Bobtails are in charge.",
@@ -1607,10 +1277,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      14,
-      16
-    ],
+    "life_span": [14, 16],
     "name": "Japanese Bobtail",
     "natural": true,
     "origin": "Japan",
@@ -1633,10 +1300,7 @@
       "Social"
     ],
     "vocalisation": 5,
-    "weight": [
-      2,
-      5
-    ],
+    "weight": [2, 5],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Japanese_Bobtail"
   },
   {
@@ -1655,10 +1319,7 @@
     "hypoallergenic": true,
     "indoor": false,
     "intelligence": 5,
-    "life_span": [
-      10,
-      12
-    ],
+    "life_span": [10, 12],
     "name": "Javanese",
     "natural": false,
     "origin": "United States",
@@ -1669,26 +1330,16 @@
     "social_needs": 5,
     "stranger_friendly": 3,
     "suppressed_tail": false,
-    "temperament": [
-      "Active",
-      "Devoted",
-      "Intelligent",
-      "Playful"
-    ],
+    "temperament": ["Active", "Devoted", "Intelligent", "Playful"],
     "vocalisation": 5,
-    "weight": [
-      2,
-      5
-    ],
+    "weight": [2, 5],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Javanese_cat"
   },
   {
     "id": "abcfc1d4-c98f-4a40-bfc4-53c1a70e0574",
     "adaptability": 4,
     "affection_level": 4,
-    "alternative_names": [
-      "Diamond Eye cat"
-    ],
+    "alternative_names": ["Diamond Eye cat"],
     "child_friendliness": 3,
     "country_code": "TH",
     "description": "The Khao Manee is highly intelligent, with an extrovert and inquisitive nature, however they are also very calm and relaxed, making them an idea lap cat.",
@@ -1702,10 +1353,7 @@
     "indoor": false,
     "intelligence": 4,
     "lap": true,
-    "life_span": [
-      10,
-      12
-    ],
+    "life_span": [10, 12],
     "name": "Khao Manee",
     "natural": false,
     "origin": "Thailand",
@@ -1716,18 +1364,9 @@
     "social_needs": 3,
     "stranger_friendly": 3,
     "suppressed_tail": false,
-    "temperament": [
-      "Calm",
-      "Relaxed",
-      "Talkative",
-      "Playful",
-      "Warm"
-    ],
+    "temperament": ["Calm", "Relaxed", "Talkative", "Playful", "Warm"],
     "vocalisation": 5,
-    "weight": [
-      4,
-      6
-    ],
+    "weight": [4, 6],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Khao_Manee"
   },
   {
@@ -1746,10 +1385,7 @@
     "hypoallergenic": false,
     "indoor": false,
     "intelligence": 5,
-    "life_span": [
-      10,
-      15
-    ],
+    "life_span": [10, 15],
     "name": "Korat",
     "natural": false,
     "origin": "Thailand",
@@ -1768,10 +1404,7 @@
       "Trainable"
     ],
     "vocalisation": 3,
-    "weight": [
-      3,
-      5
-    ],
+    "weight": [3, 5],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Korat"
   },
   {
@@ -1790,10 +1423,7 @@
     "hypoallergenic": false,
     "indoor": false,
     "intelligence": 5,
-    "life_span": [
-      15,
-      20
-    ],
+    "life_span": [15, 20],
     "name": "Kurilian",
     "natural": true,
     "origin": "Russia",
@@ -1814,19 +1444,14 @@
       "Trainable"
     ],
     "vocalisation": 3,
-    "weight": [
-      4,
-      7
-    ],
+    "weight": [4, 7],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Kurilian_Bobtail"
   },
   {
     "id": "13eabd98-0c98-43c7-8aad-1be56699b151",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Si-Sawat"
-    ],
+    "alternative_names": ["Si-Sawat"],
     "child_friendliness": 4,
     "country_code": "TH",
     "description": "LaPerms are gentle and affectionate but also very active. Unlike many active breeds, the LaPerm is also quite content to be a lap cat. The LaPerm will often follow your lead; that is, if they are busy playing and you decide to sit and relax, simply pick up your LaPerm and sit down with it, and it will stay in your lap, devouring the attention you give it.",
@@ -1840,10 +1465,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      10,
-      15
-    ],
+    "life_span": [10, 15],
     "name": "LaPerm",
     "natural": false,
     "origin": "Thailand",
@@ -1863,10 +1485,7 @@
       "Quiet"
     ],
     "vocalisation": 3,
-    "weight": [
-      3,
-      5
-    ],
+    "weight": [3, 5],
     "wikipedia_url": "https://en.wikipedia.org/wiki/LaPerm"
   },
   {
@@ -1894,10 +1513,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      12,
-      15
-    ],
+    "life_span": [12, 15],
     "name": "Maine Coon",
     "natural": true,
     "origin": "United States",
@@ -1916,19 +1532,14 @@
       "Independent"
     ],
     "vocalisation": 1,
-    "weight": [
-      5,
-      8
-    ],
+    "weight": [5, 8],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Maine_Coon"
   },
   {
     "id": "5e1437d0-7c75-4df4-b203-75793ef26710",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Asian"
-    ],
+    "alternative_names": ["Asian"],
     "child_friendliness": 4,
     "country_code": "GB",
     "description": "Malayans love to explore and even enjoy traveling by way of a cat carrier. They are quite a talkative and rather loud cat with an apparent strong will. These cats will make sure that you give it the attention it seeks and always seem to want to be held and hugged. They will constantly interact with people, even strangers. They love to play and cuddle.",
@@ -1941,10 +1552,7 @@
     "hypoallergenic": false,
     "indoor": false,
     "intelligence": 3,
-    "life_span": [
-      12,
-      18
-    ],
+    "life_span": [12, 18],
     "name": "Malayan",
     "natural": false,
     "origin": "United Kingdom",
@@ -1955,28 +1563,16 @@
     "social_needs": 3,
     "stranger_friendly": 3,
     "suppressed_tail": false,
-    "temperament": [
-      "Affectionate",
-      "Interactive",
-      "Playful",
-      "Social"
-    ],
+    "temperament": ["Affectionate", "Interactive", "Playful", "Social"],
     "vocalisation": 5,
-    "weight": [
-      3,
-      6
-    ],
+    "weight": [3, 6],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Asian_cat"
   },
   {
     "id": "246bb8e1-669e-4d99-aee6-f113569d570c",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Manks",
-      "Stubbin",
-      "Rumpy"
-    ],
+    "alternative_names": ["Manks", "Stubbin", "Rumpy"],
     "child_friendliness": 4,
     "country_code": "IM",
     "description": "The Manx is a placid, sweet cat that is gentle and playful. She never seems to get too upset about anything. She is a loving companion and adores being with people.",
@@ -1990,10 +1586,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      12,
-      14
-    ],
+    "life_span": [12, 14],
     "name": "Manx",
     "natural": true,
     "origin": "Isle of Man",
@@ -2004,18 +1597,9 @@
     "social_needs": 5,
     "stranger_friendly": 3,
     "suppressed_tail": true,
-    "temperament": [
-      "Easy Going",
-      "Intelligent",
-      "Loyal",
-      "Playful",
-      "Social"
-    ],
+    "temperament": ["Easy Going", "Intelligent", "Loyal", "Playful", "Social"],
     "vocalisation": 3,
-    "weight": [
-      3,
-      6
-    ],
+    "weight": [3, 6],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Manx_(cat)"
   },
   {
@@ -2035,10 +1619,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      10,
-      15
-    ],
+    "life_span": [10, 15],
     "name": "Munchkin",
     "natural": false,
     "origin": "United States",
@@ -2049,26 +1630,16 @@
     "social_needs": 5,
     "stranger_friendly": 5,
     "suppressed_tail": false,
-    "temperament": [
-      "Agile",
-      "Easy Going",
-      "Intelligent",
-      "Playful"
-    ],
+    "temperament": ["Agile", "Easy Going", "Intelligent", "Playful"],
     "vocalisation": 3,
-    "weight": [
-      2,
-      4
-    ],
+    "weight": [2, 4],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Munchkin_(cat)"
   },
   {
     "id": "e512efb4-e49e-47f5-8fc9-86da74c01666",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Longhaired Russian Blue"
-    ],
+    "alternative_names": ["Longhaired Russian Blue"],
     "child_friendliness": 4,
     "country_code": "US",
     "description": "The Nebelung may have a reserved nature, but she loves to play (being especially fond of retrieving) and enjoys jumping or climbing to high places where she can study people and situations at her leisure before making up her mind about whether she wants to get involved.",
@@ -2082,10 +1653,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      11,
-      16
-    ],
+    "life_span": [11, 16],
     "name": "Nebelung",
     "natural": false,
     "origin": "United States",
@@ -2096,17 +1664,9 @@
     "social_needs": 3,
     "stranger_friendly": 3,
     "suppressed_tail": false,
-    "temperament": [
-      "Gentle",
-      "Quiet",
-      "Shy",
-      "Playful"
-    ],
+    "temperament": ["Gentle", "Quiet", "Shy", "Playful"],
     "vocalisation": 1,
-    "weight": [
-      3,
-      5
-    ],
+    "weight": [3, 5],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Nebelung"
   },
   {
@@ -2130,10 +1690,7 @@
     "hypoallergenic": false,
     "indoor": false,
     "intelligence": 4,
-    "life_span": [
-      12,
-      16
-    ],
+    "life_span": [12, 16],
     "name": "Norwegian Forest Cat",
     "natural": true,
     "origin": "Norway",
@@ -2154,10 +1711,7 @@
       "Curious"
     ],
     "vocalisation": 1,
-    "weight": [
-      4,
-      7
-    ],
+    "weight": [4, 7],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Norwegian_Forest_Cat"
   },
   {
@@ -2176,10 +1730,7 @@
     "hypoallergenic": true,
     "indoor": false,
     "intelligence": 5,
-    "life_span": [
-      12,
-      14
-    ],
+    "life_span": [12, 14],
     "name": "Ocicat",
     "natural": false,
     "origin": "United States",
@@ -2202,19 +1753,14 @@
       "Social"
     ],
     "vocalisation": 3,
-    "weight": [
-      3,
-      7
-    ],
+    "weight": [3, 7],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ocicat"
   },
   {
     "id": "89cf25c8-1453-4412-a7f8-c08212c5ecaa",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Foreign Type"
-    ],
+    "alternative_names": ["Foreign Type"],
     "child_friendliness": 4,
     "country_code": "US",
     "description": "Orientals are passionate about the people in their lives. They become extremely attached to their humans, so be prepared for a lifetime commitment. When you are not available to entertain her, an Oriental will divert herself by jumping on top of the refrigerator, opening drawers, seeking out new hideaways.",
@@ -2228,10 +1774,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      12,
-      14
-    ],
+    "life_span": [12, 14],
     "name": "Oriental",
     "natural": false,
     "origin": "United States",
@@ -2251,22 +1794,14 @@
       "Curious"
     ],
     "vocalisation": 5,
-    "weight": [
-      2,
-      5
-    ],
+    "weight": [2, 5],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Oriental_Shorthair"
   },
   {
     "id": "e81f1e3d-4ddd-4ce1-8ce4-3a4c08a38ed1",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Longhair",
-      "Persian Longhair",
-      "Shiraz",
-      "Shirazi"
-    ],
+    "alternative_names": ["Longhair", "Persian Longhair", "Shiraz", "Shirazi"],
     "child_friendliness": 2,
     "country_code": "IR",
     "description": "Persians are sweet, gentle cats that can be playful or quiet and laid-back. Great with families and children, they absolutely love to lounge around the house. While they don’t mind a full house or active kids, they’ll usually hide when they need some alone time.",
@@ -2280,10 +1815,7 @@
     "indoor": false,
     "intelligence": 3,
     "lap": true,
-    "life_span": [
-      14,
-      15
-    ],
+    "life_span": [14, 15],
     "name": "Persian",
     "natural": true,
     "origin": "Iran (Persia)",
@@ -2294,17 +1826,9 @@
     "social_needs": 4,
     "stranger_friendly": 2,
     "suppressed_tail": false,
-    "temperament": [
-      "Affectionate",
-      "Loyal",
-      "Sedate",
-      "Quiet"
-    ],
+    "temperament": ["Affectionate", "Loyal", "Sedate", "Quiet"],
     "vocalisation": 1,
-    "weight": [
-      4,
-      6
-    ],
+    "weight": [4, 6],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Persian_(cat)"
   },
   {
@@ -2324,10 +1848,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      13,
-      16
-    ],
+    "life_span": [13, 16],
     "name": "Pixie-bob",
     "natural": false,
     "origin": "United States",
@@ -2338,17 +1859,9 @@
     "social_needs": 4,
     "stranger_friendly": 4,
     "suppressed_tail": true,
-    "temperament": [
-      "Affectionate",
-      "Social",
-      "Intelligent",
-      "Loyal"
-    ],
+    "temperament": ["Affectionate", "Social", "Intelligent", "Loyal"],
     "vocalisation": 1,
-    "weight": [
-      4,
-      8
-    ],
+    "weight": [4, 8],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Pixiebob"
   },
   {
@@ -2368,10 +1881,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      12,
-      16
-    ],
+    "life_span": [12, 16],
     "name": "Ragamuffin",
     "natural": false,
     "origin": "United States",
@@ -2382,26 +1892,16 @@
     "social_needs": 3,
     "stranger_friendly": 5,
     "suppressed_tail": false,
-    "temperament": [
-      "Affectionate",
-      "Friendly",
-      "Gentle",
-      "Calm"
-    ],
+    "temperament": ["Affectionate", "Friendly", "Gentle", "Calm"],
     "vocalisation": 1,
-    "weight": [
-      4,
-      9
-    ],
+    "weight": [4, 9],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ragamuffin_cat"
   },
   {
     "id": "fc9ec05c-71b7-4e71-a937-fcd3679b530c",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Rag doll"
-    ],
+    "alternative_names": ["Rag doll"],
     "child_friendliness": 4,
     "country_code": "US",
     "description": "Ragdolls love their people, greeting them at the door, following them around the house, and leaping into a lap or snuggling in bed whenever given the chance. They are the epitome of a lap cat, enjoy being carried and collapsing into the arms of anyone who holds them.",
@@ -2415,10 +1915,7 @@
     "indoor": false,
     "intelligence": 3,
     "lap": true,
-    "life_span": [
-      12,
-      17
-    ],
+    "life_span": [12, 17],
     "name": "Ragdoll",
     "natural": false,
     "origin": "United States",
@@ -2429,28 +1926,16 @@
     "social_needs": 5,
     "stranger_friendly": 3,
     "suppressed_tail": false,
-    "temperament": [
-      "Affectionate",
-      "Friendly",
-      "Gentle",
-      "Quiet",
-      "Easygoing"
-    ],
+    "temperament": ["Affectionate", "Friendly", "Gentle", "Quiet", "Easygoing"],
     "vocalisation": 1,
-    "weight": [
-      5,
-      9
-    ],
+    "weight": [5, 9],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ragdoll"
   },
   {
     "id": "55a74fde-f480-41e7-9731-a333cdfce189",
     "adaptability": 3,
     "affection_level": 3,
-    "alternative_names": [
-      "Archangel Blue",
-      "Archangel Cat"
-    ],
+    "alternative_names": ["Archangel Blue", "Archangel Cat"],
     "child_friendliness": 3,
     "country_code": "RU",
     "description": "Russian Blues are very loving and reserved. They do not like noisy households but they do like to play and can be quite active when outdoors. They bond very closely with their owner and are known to be compatible with other pets.",
@@ -2464,10 +1949,7 @@
     "indoor": false,
     "intelligence": 3,
     "lap": true,
-    "life_span": [
-      10,
-      16
-    ],
+    "life_span": [10, 16],
     "name": "Russian Blue",
     "natural": true,
     "origin": "Russia",
@@ -2489,10 +1971,7 @@
       "Quiet"
     ],
     "vocalisation": 1,
-    "weight": [
-      2,
-      5
-    ],
+    "weight": [2, 5],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Russian_Blue"
   },
   {
@@ -2511,10 +1990,7 @@
     "hypoallergenic": false,
     "indoor": false,
     "intelligence": 5,
-    "life_span": [
-      17,
-      20
-    ],
+    "life_span": [17, 20],
     "name": "Savannah",
     "natural": false,
     "origin": "United States",
@@ -2535,19 +2011,14 @@
       "Affectionate"
     ],
     "vocalisation": 1,
-    "weight": [
-      4,
-      11
-    ],
+    "weight": [4, 11],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Savannah_cat"
   },
   {
     "id": "e92bfdb2-ae70-499e-bb7c-9131d1789921",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Scot Fold"
-    ],
+    "alternative_names": ["Scot Fold"],
     "child_friendliness": 4,
     "country_code": "GB",
     "description": "The Scottish Fold is a sweet, charming breed. She is an easy cat to live with and to care for. She is affectionate and is comfortable with all members of her family. Her tail should be handled gently. Folds are known for sleeping on their backs, and for sitting with their legs stretched out and their paws on their belly. This is called the \"Buddha Position\".",
@@ -2560,10 +2031,7 @@
     "hypoallergenic": false,
     "indoor": false,
     "intelligence": 3,
-    "life_span": [
-      11,
-      14
-    ],
+    "life_span": [11, 14],
     "name": "Scottish Fold",
     "natural": false,
     "origin": "United Kingdom",
@@ -2584,19 +2052,14 @@
       "Loving"
     ],
     "vocalisation": 1,
-    "weight": [
-      2,
-      5
-    ],
+    "weight": [2, 5],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Scottish_Fold"
   },
   {
     "id": "9ad6c625-3567-4624-a336-76aa3e342bf5",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Shepherd Cat"
-    ],
+    "alternative_names": ["Shepherd Cat"],
     "child_friendliness": 4,
     "country_code": "US",
     "description": "The Selkirk Rex is an incredibly patient, loving, and tolerant breed. The Selkirk also has a silly side and is sometimes described as clownish. She loves being a lap cat and will be happy to chat with you in a quiet voice if you talk to her. ",
@@ -2610,10 +2073,7 @@
     "indoor": false,
     "intelligence": 3,
     "lap": true,
-    "life_span": [
-      14,
-      15
-    ],
+    "life_span": [14, 15],
     "name": "Selkirk Rex",
     "natural": false,
     "origin": "United States",
@@ -2635,20 +2095,14 @@
       "Social"
     ],
     "vocalisation": 3,
-    "weight": [
-      3,
-      7
-    ],
+    "weight": [3, 7],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Selkirk_Rex"
   },
   {
     "id": "7e907ca5-41b3-4f2d-b215-499e010e00c9",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Siam",
-      "Thai Cat"
-    ],
+    "alternative_names": ["Siam", "Thai Cat"],
     "child_friendliness": 4,
     "country_code": "TH",
     "description": "While Siamese cats are extremely fond of their people, they will follow you around and supervise your every move, being talkative and opinionated. They are a demanding and social cat, that do not like being left alone for long periods.",
@@ -2662,10 +2116,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      12,
-      15
-    ],
+    "life_span": [12, 15],
     "name": "Siamese",
     "natural": false,
     "origin": "Thailand",
@@ -2685,20 +2136,14 @@
       "Energetic"
     ],
     "vocalisation": 5,
-    "weight": [
-      4,
-      7
-    ],
+    "weight": [4, 7],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Siamese_(cat)"
   },
   {
     "id": "0525084c-51af-43df-b47e-0484b8b8781e",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Moscow Semi-longhair",
-      "HairSiberian Forest Cat"
-    ],
+    "alternative_names": ["Moscow Semi-longhair", "HairSiberian Forest Cat"],
     "child_friendliness": 4,
     "country_code": "RU",
     "description": "The Siberians dog like temperament an affection makes the ideal lap cat and will live quite happily indoors. Very agile and powerful, the Siberian cat can easily leap and reach high places, including the tops of refrigerators and even doors.",
@@ -2712,10 +2157,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      12,
-      15
-    ],
+    "life_span": [12, 15],
     "name": "Siberian",
     "natural": true,
     "origin": "Russia",
@@ -2736,21 +2178,14 @@
       "Affectionate"
     ],
     "vocalisation": 1,
-    "weight": [
-      4,
-      7
-    ],
+    "weight": [4, 7],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Siberian_(cat)"
   },
   {
     "id": "f14fae0f-d538-446b-88d0-1fa9b62f7f6f",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Drain Cat",
-      "Kucinta",
-      "Pura"
-    ],
+    "alternative_names": ["Drain Cat", "Kucinta", "Pura"],
     "child_friendliness": 4,
     "country_code": "SP",
     "description": "The Singapura is usually cautious when it comes to meeting new people, but loves attention from his family so much that she sometimes has the reputation of being a pest. This is a highly active, curious and affectionate cat. She may be small, but she knows she’s in charge",
@@ -2764,10 +2199,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      12,
-      15
-    ],
+    "life_span": [12, 15],
     "name": "Singapura",
     "natural": false,
     "origin": "Singapore",
@@ -2788,10 +2220,7 @@
       "Loyal"
     ],
     "vocalisation": 1,
-    "weight": [
-      2,
-      4
-    ],
+    "weight": [2, 4],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Singapura_(cat)"
   },
   {
@@ -2811,10 +2240,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      14,
-      19
-    ],
+    "life_span": [14, 19],
     "name": "Snowshoe",
     "natural": false,
     "origin": "United States",
@@ -2825,27 +2251,16 @@
     "social_needs": 4,
     "stranger_friendly": 4,
     "suppressed_tail": false,
-    "temperament": [
-      "Affectionate",
-      "Social",
-      "Intelligent",
-      "Sweet-tempered"
-    ],
+    "temperament": ["Affectionate", "Social", "Intelligent", "Sweet-tempered"],
     "vocalisation": 5,
-    "weight": [
-      3,
-      5
-    ],
+    "weight": [3, 5],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Snowshoe_(cat)"
   },
   {
     "id": "2e046a8b-cec3-4478-8b37-a4cbb3ea3204",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Fox Cat",
-      "Long-Haired Abyssinian"
-    ],
+    "alternative_names": ["Fox Cat", "Long-Haired Abyssinian"],
     "child_friendliness": 3,
     "country_code": "SO",
     "description": "The Somali lives life to the fullest. He climbs higher, jumps farther, plays harder. Nothing escapes the notice of this highly intelligent and inquisitive cat. Somalis love the company of humans and other animals.",
@@ -2858,10 +2273,7 @@
     "hypoallergenic": false,
     "indoor": false,
     "intelligence": 5,
-    "life_span": [
-      12,
-      16
-    ],
+    "life_span": [12, 16],
     "name": "Somali",
     "natural": false,
     "origin": "Somalia",
@@ -2882,20 +2294,14 @@
       "Loyal"
     ],
     "vocalisation": 1,
-    "weight": [
-      3,
-      5
-    ],
+    "weight": [3, 5],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Somali_(cat)"
   },
   {
     "id": "5f80ea70-57b6-462f-b4f8-3970e5930b47",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Canadian Hairless",
-      "Canadian Sphynx"
-    ],
+    "alternative_names": ["Canadian Hairless", "Canadian Sphynx"],
     "child_friendliness": 4,
     "country_code": "CA",
     "description": "The Sphynx is an intelligent, inquisitive, extremely friendly people-oriented breed. Sphynx commonly greet their owners  at the front door, with obvious excitement and happiness. She has an unexpected sense of humor that is often at odds with her dour expression.",
@@ -2909,10 +2315,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      12,
-      14
-    ],
+    "life_span": [12, 14],
     "name": "Sphynx",
     "natural": false,
     "origin": "Canada",
@@ -2923,27 +2326,16 @@
     "social_needs": 5,
     "stranger_friendly": 5,
     "suppressed_tail": false,
-    "temperament": [
-      "Loyal",
-      "Inquisitive",
-      "Friendly",
-      "Quiet",
-      "Gentle"
-    ],
+    "temperament": ["Loyal", "Inquisitive", "Friendly", "Quiet", "Gentle"],
     "vocalisation": 5,
-    "weight": [
-      3,
-      5
-    ],
+    "weight": [3, 5],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Sphynx_(cat)"
   },
   {
     "id": "cac975a0-3d3a-4a5a-82b5-3bba27db92d4",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Tonk"
-    ],
+    "alternative_names": ["Tonk"],
     "child_friendliness": 4,
     "country_code": "CA",
     "description": "Intelligent and generous with their affection, a Tonkinese will supervise all activities with curiosity. Loving, social, active, playful, yet content to be a lap cat",
@@ -2957,10 +2349,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      14,
-      16
-    ],
+    "life_span": [14, 16],
     "name": "Tonkinese",
     "natural": false,
     "origin": "Canada",
@@ -2981,10 +2370,7 @@
       "Affectionate"
     ],
     "vocalisation": 5,
-    "weight": [
-      3,
-      5
-    ],
+    "weight": [3, 5],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Tonkinese_(cat)"
   },
   {
@@ -3004,10 +2390,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      12,
-      15
-    ],
+    "life_span": [12, 15],
     "name": "Toyger",
     "natural": false,
     "origin": "United States",
@@ -3018,25 +2401,16 @@
     "social_needs": 3,
     "stranger_friendly": 5,
     "suppressed_tail": false,
-    "temperament": [
-      "Playful",
-      "Social",
-      "Intelligent"
-    ],
+    "temperament": ["Playful", "Social", "Intelligent"],
     "vocalisation": 5,
-    "weight": [
-      3,
-      7
-    ],
+    "weight": [3, 7],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Toyger"
   },
   {
     "id": "692776fe-c9d4-489b-bc39-2614f32fa766",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Ankara"
-    ],
+    "alternative_names": ["Ankara"],
     "child_friendliness": 4,
     "country_code": "TR",
     "description": "This is a smart and intelligent cat which bonds well with humans. With its affectionate and playful personality the Angora is a top choice for families. The Angora gets along great with other pets in the home, but it will make clear who is in charge, and who the house belongs to",
@@ -3049,10 +2423,7 @@
     "hypoallergenic": false,
     "indoor": false,
     "intelligence": 5,
-    "life_span": [
-      15,
-      18
-    ],
+    "life_span": [15, 18],
     "name": "Turkish Angora",
     "natural": true,
     "origin": "Turkey",
@@ -3073,20 +2444,14 @@
       "Social"
     ],
     "vocalisation": 3,
-    "weight": [
-      2,
-      5
-    ],
+    "weight": [2, 5],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Turkish_Angora"
   },
   {
     "id": "ea3ea3b8-2555-4f0b-9e09-e5143718c9ce",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "Turkish Cat",
-      "Swimming cat"
-    ],
+    "alternative_names": ["Turkish Cat", "Swimming cat"],
     "child_friendliness": 4,
     "country_code": "TR",
     "description": "While the Turkish Van loves to jump and climb, play with toys, retrieve and play chase, she is is big and ungainly; this is one cat who doesn’t always land on his feet. While not much of a lap cat, the Van will be happy to cuddle next to you and sleep in your bed. ",
@@ -3099,10 +2464,7 @@
     "hypoallergenic": false,
     "indoor": false,
     "intelligence": 5,
-    "life_span": [
-      12,
-      17
-    ],
+    "life_span": [12, 17],
     "name": "Turkish Van",
     "natural": true,
     "origin": "Turkey",
@@ -3113,27 +2475,16 @@
     "social_needs": 4,
     "stranger_friendly": 4,
     "suppressed_tail": false,
-    "temperament": [
-      "Agile",
-      "Intelligent",
-      "Loyal",
-      "Playful",
-      "Energetic"
-    ],
+    "temperament": ["Agile", "Intelligent", "Loyal", "Playful", "Energetic"],
     "vocalisation": 5,
-    "weight": [
-      3,
-      9
-    ],
+    "weight": [3, 9],
     "wikipedia_url": "https://en.wikipedia.org/wiki/Turkish_Van"
   },
   {
     "id": "b17566b5-fd10-478d-90d8-9483a9013b1c",
     "adaptability": 5,
     "affection_level": 5,
-    "alternative_names": [
-      "York"
-    ],
+    "alternative_names": ["York"],
     "child_friendliness": 4,
     "country_code": "US",
     "description": "York Chocolate cats are known to be true lap cats with a sweet temperament. They love to be cuddled and petted. Their curious nature makes them follow you all the time and participate in almost everything you do, even if it's related to water: unlike many other cats, York Chocolates love it.",
@@ -3147,10 +2498,7 @@
     "indoor": false,
     "intelligence": 5,
     "lap": true,
-    "life_span": [
-      13,
-      15
-    ],
+    "life_span": [13, 15],
     "name": "York Chocolate",
     "natural": false,
     "origin": "United States",
@@ -3161,19 +2509,9 @@
     "social_needs": 4,
     "stranger_friendly": 4,
     "suppressed_tail": false,
-    "temperament": [
-      "Playful",
-      "Social",
-      "Intelligent",
-      "Curious",
-      "Friendly"
-    ],
+    "temperament": ["Playful", "Social", "Intelligent", "Curious", "Friendly"],
     "vocalisation": 5,
-    "weight": [
-      5,
-      8
-    ],
+    "weight": [5, 8],
     "wikipedia_url": "https://en.wikipedia.org/wiki/York_Chocolate"
   }
 ]
-Done
