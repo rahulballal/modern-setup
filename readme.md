@@ -1,4 +1,4 @@
-# Modern Application Setup
+# Modern Front End Application Setup
 
 - Render a list of cats
 - Render details of a single cat
