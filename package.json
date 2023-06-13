@@ -8,7 +8,8 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "gql:codegen": "graphql-codegen",
-    "test": "vitest --coverage --environment jsdom",
+    "test": "vitest run --environment jsdom",
+    "test:watch": "vitest --environment jsdom",
     "e2e": "npx playwright test",
     "lint": "prettier ./src --write"
   },
