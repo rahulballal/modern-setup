@@ -2,11 +2,7 @@ import type { FC } from "react";
 import type { Cat } from "../../__generated__/hooks";
 import { useCatsQuery } from "../../__generated__/hooks";
 import { CatListItem } from "./components/cat-list-item";
-import {
-  Loader,
-  Alert,
-  Stack,
-} from "@mantine/core";
+import { Loader, Alert, Stack } from "@mantine/core";
 
 export const CatList: FC = () => {
   const { data, loading, error } = useCatsQuery();
@@ -23,8 +19,8 @@ export const CatList: FC = () => {
     );
   }
 
-  if(data.cats.length === 0) {
-    return <Alert color="blue">No cats returned!!!! Meeaaaaooowwww</Alert>
+  if (data.cats.length === 0) {
+    return <Alert color="blue">No cats returned!!!! Meeaaaaooowwww</Alert>;
   }
 
   const items = data.cats.map((cat: Cat) => (

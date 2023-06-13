@@ -22,7 +22,9 @@ export const CatDetail: React.FC<{ id: Cat["id"] }> = (props) => {
 
   if (error || !data) {
     return (
-      <Alert color={"red"} data-testid="error">Cat decided to not come to party...bad kitty</Alert>
+      <Alert color={"red"} data-testid="error">
+        Cat decided to not come to party...bad kitty
+      </Alert>
     );
   }
 

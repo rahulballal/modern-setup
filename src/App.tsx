@@ -1,8 +1,4 @@
-import {
-  Center,
-  MantineProvider,
-  AppShell,
-} from "@mantine/core";
+import { Center, MantineProvider, AppShell } from "@mantine/core";
 import { Switch, Route } from "wouter";
 import { AddCat } from "./pages/add-cat";
 import { CatDetail } from "./pages/cat";

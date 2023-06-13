@@ -41,7 +41,11 @@ export const AddCatButton: FC<AddNewCatMutationVariables> = ({ newCat }) => {
       </Button>
     );
   }
-  return <Button onClick={handleClick} data-testid="newcat">Submit</Button>;
+  return (
+    <Button onClick={handleClick} data-testid="newcat">
+      Submit
+    </Button>
+  );
 };
 
 export type AddCatButtonType = typeof AddCatButton;

@@ -1,20 +1,20 @@
-import {NewCatInput} from "../../../../__generated__/hooks";
-import {useReducer} from "react";
+import { NewCatInput } from "../../../../__generated__/hooks";
+import { useReducer } from "react";
 
 export type NewCatFormState = Pick<
-    NewCatInput,
-    | "name"
-    | "description"
-    | "origin"
-    | "adaptability"
-    | "affection_level"
-    | "child_friendliness"
-    | "hypoallergenic"
-    | "indoor"
-    | "intelligence"
-    | "shedding_level"
-    | "weight"
-    | "life_span"
+  NewCatInput,
+  | "name"
+  | "description"
+  | "origin"
+  | "adaptability"
+  | "affection_level"
+  | "child_friendliness"
+  | "hypoallergenic"
+  | "indoor"
+  | "intelligence"
+  | "shedding_level"
+  | "weight"
+  | "life_span"
 >;
 
 export const defaultState: NewCatFormState = {
@@ -36,7 +36,10 @@ export const csvToArray = (csvStr?: string) => {
     if (csvStr.length === 0) {
       return [];
     }
-    return csvStr.split(",").map((value) => Number.parseInt(value)).filter(Boolean);
+    return csvStr
+      .split(",")
+      .map((value) => Number.parseInt(value))
+      .filter(Boolean);
   }
   return [];
 };
@@ -44,8 +47,8 @@ export const csvToArray = (csvStr?: string) => {
 export type NewCatAction = { fieldName: keyof NewCatFormState; value: string };
 
 export const newCatReducer = (
-    currentState: NewCatFormState,
-    payload: NewCatAction
+  currentState: NewCatFormState,
+  payload: NewCatAction
 ): NewCatFormState => {
   let nextState = currentState;
   switch (payload.fieldName) {
@@ -93,5 +96,5 @@ export const newCatReducer = (
 };
 
 export function useNewCatReducer() {
-  return useReducer(newCatReducer,defaultState);
+  return useReducer(newCatReducer, defaultState);
 }

@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "gql:codegen": "graphql-codegen",
     "test": "vitest --coverage --environment jsdom",
-    "e2e": "npx playwright test"
+    "e2e": "npx playwright test",
+    "lint": "prettier ./src --write"
   },
   "dependencies": {
     "@apollo/client": "^3.7.12",
@@ -30,9 +31,15 @@
     "@testing-library/user-event": "14.4.3",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.59.9",
+    "@typescript-eslint/parser": "^5.59.9",
     "@vitejs/plugin-react": "^3.1.0",
     "@vitest/coverage-c8": "^0.31.4",
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-react": "^7.32.2",
     "jsdom": "^22.0.0",
+    "prettier": "2.8.8",
     "typescript": "^5.0.4",
     "vite": "^4.2.0",
     "vitest": "^0.30.1"
