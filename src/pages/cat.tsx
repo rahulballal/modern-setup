@@ -30,7 +30,7 @@ export const CatDetail: React.FC<{ id: Cat["id"] }> = (props) => {
 
   const nodes = [];
 
-  for (let [key, value] of Object.entries(data?.cat)) {
+  for (const [key, value] of Object.entries(data?.cat)) {
     if (key === "__typename") {
       continue;
     }
