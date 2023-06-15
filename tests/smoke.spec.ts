@@ -1,22 +1,29 @@
-import { test, expect } from "@playwright/test";
+import {test} from "@playwright/test";
+import {AddCatPage, CatDetailsPage, CatListPage} from "./pages";
 
-test("list page is operational", async ({ page }) => {
-  await page.goto("/");
+test("list page is operational", async ({page}) => {
+  const catListPage = new CatListPage(page);
 
-  await expect(page.getByText("Cats World")).toBeDefined();
+  await catListPage.visit();
+  await catListPage.ensureBasicFunctionality();
 });
 
-test("individual cat can be retreived", async ({ page }) => {
-  const firstCatPath = "/cat/464e88b1-dc61-4804-b74b-b49960d413eb";
-  await page.goto(`${firstCatPath}`);
+test("individual cat can be retrieved", async ({page}) => {
+  const catId = "464e88b1-dc61-4804-b74b-b49960d413eb";
+  const catDetailsPage = new CatDetailsPage(page);
 
-  await expect(page.getByText("Abyssinian")).toBeDefined();
+  await catDetailsPage.visit(catId);
+  await catDetailsPage.ensureBasicFunctionality();
 });
 
-test("can navigate to the new cat form", async ({ page }) => {
-  await page.goto("/");
-  await page.getByText("Add Cat").click();
+test("can navigate to the new cat form", async ({page}) => {
+  const catListPage = new CatListPage(page);
+  const addCatPage = new AddCatPage(page);
 
-  await expect(page.url().search("new-cat")).toBeTruthy();
-  await expect(page.getByText("Submit")).toBeVisible();
+  await catListPage.visit();
+  await catListPage.clickAddCat();
+
+  await addCatPage.confirmPageUrl();
+  await addCatPage.confirmSubmitButtonVisible();
+
 });
