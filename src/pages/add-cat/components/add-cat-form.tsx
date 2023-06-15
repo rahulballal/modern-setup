@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Card,
   Textarea,
@@ -7,14 +8,9 @@ import {
   NumberInput,
   Checkbox,
 } from "@mantine/core";
-import { ChangeEvent, FC, useReducer } from "react";
+import { ChangeEvent, FC } from "react";
 import { AddCatButtonType } from "./add-cat-button";
-import {
-  defaultState,
-  NewCatFormState,
-  newCatReducer,
-  useNewCatReducer,
-} from "./state-management/reducer";
+import { NewCatFormState, useNewCatReducer } from "./state-management/reducer";
 
 export const AddCatForm: FC<{ AddButtonNode: AddCatButtonType }> = (props) => {
   const [state, dispatch] = useNewCatReducer();
@@ -45,11 +41,13 @@ export const AddCatForm: FC<{ AddButtonNode: AddCatButtonType }> = (props) => {
       <Stack spacing="xs">
         <TextInput
           label="Name"
+          data-testid="Name"
           onChange={handleChange("name")}
           value={name ?? ""}
         />
         <Textarea
           label="Description"
+          data-testid="Description"
           value={description ?? ""}
           minRows={3}
           onChange={handleChange("description")}
@@ -117,6 +115,7 @@ export const AddCatForm: FC<{ AddButtonNode: AddCatButtonType }> = (props) => {
         />
         <Checkbox
           label="Indoor"
+          data-testid="Indoor"
           checked={indoor ?? false}
           onChange={(evt) => {
             dispatch({ fieldName: "indoor", value: evt.currentTarget.value });
