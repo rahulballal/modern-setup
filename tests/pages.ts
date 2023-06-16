@@ -1,6 +1,5 @@
 import { expect, Page } from "@playwright/test";
 import { Cat } from "../src/__generated__/hooks";
-import * as casual from "casual";
 import { NewCatFormState } from "../src/pages/add-cat/components/state-management/reducer";
 
 export class CatListPage {
@@ -11,11 +10,15 @@ export class CatListPage {
   }
 
   async clickAddCat() {
-    await this.page.getByText("Add Cat").click();
+    await this.page.getByRole("button", { name: "Add Cat" }).click();
   }
 
   async ensureBasicFunctionality() {
     await expect(this.page.getByText("Cats World")).toBeDefined();
+  }
+
+  async assertGivenCatExists(catName: string) {
+    await expect(this.page.getByRole('link', { name: catName })).toBeDefined();
   }
 }
 
@@ -42,18 +45,27 @@ export class AddCatPage {
     await expect(this.page.getByText("Submit")).toBeVisible();
   }
 
-  async fillForm() {
-    const newCat: NewCatFormState = {
-      name: casual.name,
-      description: casual.string,
-    };
+  async submitForm() {
+    await this.page.getByTestId("newcat").click();
+  }
 
-    await this.page.getByTestId("Name").fill(newCat.name);
-    await this.page.getByTestId("Indoor").check();
-    await this.page.getByTestId("Description").fill(newCat.description);
+  async fillForm(formData: NewCatFormState) {
+    await this.page.getByTestId("Name").click();
+    await this.page.getByTestId("Name").fill(formData.name ?? "");
 
-    await this.page.getByText("Submit").click();
+    await this.page.getByLabel("Origin").click();
+    await this.page.getByLabel("Origin").fill(formData.origin ?? "USA");
 
-    return newCat;
+    if (formData.adaptability) {
+      await this.page.getByLabel("Adaptability").dblclick();
+      await this.page.getByLabel("Adaptability").click();
+      await this.page.getByLabel("Adaptability").fill("5");
+    }
+    if (formData.indoor) {
+      await this.page.getByTestId("Indoor").check();
+    }
+    const [minLife, maxLife] = formData.life_span || [0,0];
+    await this.page.getByLabel('Lifespan').click();
+    await this.page.getByLabel('Lifespan').fill(`${minLife},${maxLife}`);
   }
 }
